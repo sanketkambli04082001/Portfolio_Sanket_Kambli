@@ -1,0 +1,308 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanket-Portfolio</title>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="name">sanket.dev</div>
+            <div class="desktop-nav">
+                <ul class="ele">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+            <button class="hamburger" id="hamburger-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <div class="mobile-nav" id="mobile-menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </div>
+    
+    <main>
+        <section class="front_section" id="home">
+            <div class="content-wrapper">
+                <div class="intro">
+                    Hi, I am <span class="col">Sanket Kambli</span>,
+                    <br>
+                    an IT graduate
+                    <br>
+                    and a passionate
+                    <br>
+                    <span id="element"></span>
+                    <div class="social_main">
+                        <a href="https://www.linkedin.com/in/sanket-kambli-6bb012223/" target="_blank"><img class="social_logo" src="images/linkedin.webp" alt="LinkedIn Profile" /></a>
+                        <a href="https://github.com/sanketkambli04082001" target="_blank"><img class="social_logo" src="images/github.jpg" alt="GitHub Profile" /></a>
+                        <a href="https://www.instagram.com/sanketkambli/" target="_blank"><img class="social_logo" src="images/instagram.jpeg" alt="Instagram Profile" /></a>
+                    </div>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn btn-primary">Contact Me</a>
+                        <a href="https://drive.google.com/uc?export=download&id=1nigTdGZHptcY6PjTfypHnYib8xGa8nE2" class="btn btn-secondary" download="Sanket_Kambli_Resume.pdf">Download Resume</a>
+                        <a href="#projects" class="btn btn-secondary">View My Work</a>
+                    </div>
+                </div>
+                <div class="photo">
+                    <img src="images/profile_photo.jpg" alt="Sanket's profile photo">
+                </div>
+            </div>
+        </section>
+
+        <section class="about_section" id="about">
+            <div class="about_card">
+                <div class="about_image-container">
+                    <img id="img-default" src="images/nodes.jpg" alt="Abstract tech graphic">
+                    <img id="img-who-am-i" src="images/profile_photo2.jpg" alt="Sanket's profile photo">
+                    <img id="img-what-i-do" src="images/what_I_Do.png" alt="What I Do graphic">
+                    <img id="img-philosophy" src="images/philosophy.png" alt="My Philosophy graphic">
+                </div>
+                <div class="about_text-container">
+                    <h4>About Me</h4>
+                    <h5 id="hover-who-am-i">Who I Am</h5>
+                    <p>I'm an IT Engineer and dedicated coder from Badlapur, passionate about turning complex problems into elegant, user-friendly solutions.</p>
+                    
+                    <h5 id="hover-what-i-do">What I Do</h5>
+                    <ul>
+                        <li><i class="fas fa-code"></i> Back-End Development with Python & Django</li>
+                        <li><i class="fas fa-database"></i> Database Management with SQL</li>
+                        <li><i class="fas fa-desktop"></i> Front-End Design with HTML, CSS & JavaScript</li>
+                    </ul>
+                    
+                    <h5 id="hover-philosophy">My Philosophy</h5>
+                    <p>I believe in continuous learning and creative problem-solving to make a meaningful impact in the tech industry.</p>
+                    <div class="about-links">
+                        <a href="https://drive.google.com/uc?export=download&id=1nigTdGZHptcY6PjTfypHnYib8xGa8nE2" class="about-link" download="Sanket_Kambli_Resume.pdf">Download Resume</a>
+                        <a href="https://www.linkedin.com/in/sanket-kambli-6bb012223/" target="_blank" class="about-link">LinkedIn Profile</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills_section" id="skills">
+            <div class="skills-card">
+                <h2>My Skills</h2>
+                <div class="skills-container">
+                    <div class="technical-skills">
+                        <h3>Technical Skills</h3>
+                        <div class="skill-item">
+                            <p>Python</p>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>SQL</p>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>HTML</p>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>CSS</p>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>JavaScript</p>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>Django</p>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="professional-skills">
+                        <h3>Professional Skills</h3>
+                        <div class="skill-item">
+                            <p>Object-Oriented Programming (OOP)</p>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-fill" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>Data Structures & Algorithms (DSA)</p>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-fill" data-width="70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>Excel</p>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-fill" data-width="75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="project" id="projects">
+    <div>
+        <div class="project-container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+
+            <a href="javascript:void(0);" class="project-card">
+                <img src="images/AI_policy_chatbot.jpg" alt="AI Policy Assistant Project" class="project-image">
+                <div class="project-content">
+                    <h3>AI Policy Assistant</h3>
+                    <div class="tech-tag-container">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Gemini API</span>
+                        <span class="tech-tag">RAG</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="javascript:void(0);" class="project-card">
+                <img src="/images/CineBooker.jpg" alt="CineBooker Project" class="project-image">
+                <div class="project-content">
+                    <h3>CineBooker</h3>
+                    <div class="tech-tag-container">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">RBAC</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="javascript:void(0);" class="project-card">
+                <img src="images/portfolio_img.jpg" alt="Portfolio Website Project" class="project-image">
+                <div class="project-content">
+                    <h3>Portfolio Website</h3>
+                    <div class="tech-tag-container">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="javascript:void(0);" class="project-card">
+                <img src="images/mini_project.jpg" alt="Mini Projects" class="project-image">
+                <div class="project-content">
+                    <h3>Mini Projects</h3>
+                    <div class="tech-tag-container">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">React</span>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </div>
+</section>
+        
+        <footer id="contact">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Contact Me</h2>
+                    <h3>Let's Work Together</h3>
+                    <p>Have a project in mind or just want to connect? Feel free to reach out. I'm always open to new opportunities and collaborations.</p>
+                    
+                    <a href="https://drive.google.com/uc?export=download&id=1nigTdGZHptcY6PjTfypHnYib8xGa8nE2" class="footer-resume-link" download="Sanket_Kambli_Resume.pdf">
+                        <img width="30" height="30" src="https://img.icons8.com/ios/50/resume.png" alt="resume"/>
+                        Download My Resume
+                    </a>
+
+                    <div class="footer-social-icons">
+                        <a href="https://www.linkedin.com/in/sanket-kambli-6bb012223/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/sanketkambli04082001" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/sanketkambli/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contactForm" action="https://formspree.io/f/xgvndblz" method="POST">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="message" name="message" rows="6" placeholder="Your Message Here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <button id="settings-btn" class="settings-btn">
+        <i class="fa-solid fa-gear"></i>
+    </button>
+
+    <div id="settings-panel" class="settings-panel">
+        <h3>Settings</h3>
+        <button id="close-settings-btn" class="close-btn">&times;</button>
+        
+        <div class="setting-option">
+            <label>Animations</label>
+            <button id="animation-toggle-btn" class="toggle-btn">
+                <i id="animation-toggle-icon" class="fa-solid fa-toggle-on"></i>
+            </button>
+        </div>
+        
+        <div class="setting-option theme-option">
+            <label>Theme</label>
+            <div id="theme-buttons" class="theme-buttons">
+                <button class="theme-btn" data-theme="default">
+                    <span class="color-swatch" style="background-color: #6718B1;"></span> Default
+                </button>
+                <button class="theme-btn" data-theme="gold">
+                    <span class="color-swatch" style="background-color: #D4AF37;"></span> Gold
+                </button>
+                <button class="theme-btn" data-theme="sakura">
+                    <span class="color-swatch" style="background-color: #E68FAC;"></span> Sakura
+                </button>
+                <button class="theme-btn" data-theme="monochrome">
+                    <span class="color-swatch" style="background-color: #111827;"></span> Monochrome
+                </button>
+                <button class="theme-btn" data-theme="slate">
+                    <span class="color-swatch" style="background-color: #f97316;"></span> Slate
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS is no longer needed with this design, but keeping it won't hurt -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js" defer></script>
+</body>
+
+</html>
+
